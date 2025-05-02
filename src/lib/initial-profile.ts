@@ -2,7 +2,7 @@
 
 import { currentUser, auth } from "@clerk/nextjs/server";
 import { db } from "@/lib/db";
-
+ababababababa
 /**
  * Gets or creates a profile for the current authenticated user
  * Redirects to sign-in if no user is authenticated
