@@ -7,12 +7,14 @@ import { InitialModal } from "@/components/modals/initial-madal";
 
 export default async function SetupPage() {
   const profile = await initialProfile();
+  console.log(profile);
 
   const server = await db.server.findFirst({
     where: {
       members: {
         some: {
-          profileId: profile.id
+
+          profileId: profile.id 
         }
       }
     }

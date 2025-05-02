@@ -36,7 +36,7 @@ export default async function MemberIdPage({params,searchParams}: MemberIdPagePr
       serverId,
       profileId: profile.id
     },
-    include: {
+    include: {  
       profile: true
     }
   });
